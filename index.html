@@ -1,89 +1,163 @@
 <!DOCTYPE html>
 
 <html>
-   <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
 
-   </head>
+</head>
 
-   <body>
+<body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-   
-   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-   
+            <!-- boton al modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
 
-    <div class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- ESTO ES PESTAÑA -->
-
-        <ul class="nav  justify-content-center ">
-            <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#home"> Home</a></li>
-            <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#profile"> Profile</a> </li>
-        </ul>
-
-        <div class="tab-content col-12">
-            <div class="tab-pane active" id="home">
-                <div class="row">
-                    <div class="home">
-                        <h3>Home</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane" id="profile">
-                <div class="row border g-0 rounded shadow-sm">
-                    <div class="col p-4">
-                        <h3>Profile</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
+
+            <!-- el dropdowm -->
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ESTO ES PESTAÑA -->
+
+    <ul class="nav  justify-content-center ">
+        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#home"> Home</a></li>
+        <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#profile"> Profile</a> </li>
+    </ul>
+
+    <div class="tab-content col-12">
+        <div class="tab-pane active" id="home">
+            <div class="row">
+                <div class="home row col-4 p-0 pR">
+                    <img
+                        src="https://t2.ea.ltmcdn.com/es/razas/5/5/0/img_55_golden-retriever-o-cobrador-dorado_0_600.jpg" />
+                    <img
+                        src="https://t2.ea.ltmcdn.com/es/razas/5/5/0/img_55_golden-retriever-o-cobrador-dorado_0_600.jpg" />
+                    <img
+                        src="https://t2.ea.ltmcdn.com/es/razas/5/5/0/img_55_golden-retriever-o-cobrador-dorado_0_600.jpg" />
+                </div>
+
+                <div class="home row col-4 p-0">
+                    <img
+                        src="https://www.hebergementwebs.com/image/5d/resize-5d49b0d1cf9bc45cffa041ff75d49b7e.jpg/lo-que-no-sabias-sobre-el-perro-salchicha-0.jpg" />
+                    <img
+                        src="https://www.hebergementwebs.com/image/5d/resize-5d49b0d1cf9bc45cffa041ff75d49b7e.jpg/lo-que-no-sabias-sobre-el-perro-salchicha-0.jpg" />
+                    <img
+                        src="https://www.hebergementwebs.com/image/5d/resize-5d49b0d1cf9bc45cffa041ff75d49b7e.jpg/lo-que-no-sabias-sobre-el-perro-salchicha-0.jpg" />
+                </div>
+
+                <div class="home row col-4 p-0 ">
+                    <img
+                        src="https://p0.pikist.com/photos/128/36/dog-schnauzer-autumn-foliage-black-dog-black-schnauzer-miniature-schnauzer-animal-nature.jpg" />
+                    <img
+                        src="https://p0.pikist.com/photos/128/36/dog-schnauzer-autumn-foliage-black-dog-black-schnauzer-miniature-schnauzer-animal-nature.jpg" />
+                    <img
+                        src="https://p0.pikist.com/photos/128/36/dog-schnauzer-autumn-foliage-black-dog-black-schnauzer-miniature-schnauzer-animal-nature.jpg" />
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane" id="profile">
+            <div class="row border g-0 rounded justify-content-center align-center">
+                <div class="container col-5 justify-content-center mt-50px">
+                
+                        <div class="post mt-100px">
+                            <div class="row">
+                                <div class="col col-lg-10"> <h2>Lucys Photos</h2>
+                                </div>
+                                <div class="col-1"> 08/21
+                                </div>
+                            </div>
+
+                            <img src="https://t2.ea.ltmcdn.com/es/razas/5/5/0/img_55_golden-retriever-o-cobrador-dorado_0_600.jpg" width="100%"/>
+
+                            <div>
+                                <span> <b>23 Likes</b></span>
+                                <p>Mi nombre es Lucy, fui la primera mascota que llego a la familia, soy la mas
+                                    tranquila, obediente y hermosa,soy la mayor y cuido a mis hermanos y familia. </p>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="headerpost">
+                                <div class="nombrepost">
+                                    <h2>Almas Photos</h2>
+                                </div>
+                                <div class="fecha"><span>08/21</span></div>
+                            </div>
+                            <img
+                                src="https://www.hebergementwebs.com/image/5d/resize-5d49b0d1cf9bc45cffa041ff75d49b7e.jpg/lo-que-no-sabias-sobre-el-perro-salchicha-0.jpg" width="100%" />
+
+                            <div>
+                                <p>Mi nombre es Alma, fui la segunda mascota que llego a la familia, soy llorona,
+                                    desobediente, un torbellino pero soy la mas amorosa y regalona. </p>
+                            </div>
+                        </div>
+
+
+                        <div class="post">
+                            <div class="headerpost">
+                                <div class="nombrepost">
+                                    <h2>Togos Photos</h2>
+                                </div>
+                                <div class="fecha"><span>08/21</span></div>
+                            </div>
+                            <img
+                                src="https://c8.alamy.com/compes/wcdxra/adorable-border-collie-de-raza-mixta-x-schnauzer-schnollie-wcdxra.jpg" width="100%" />
+
+                            <div>
+                                <p>Mi nombre es Togo, fui salvado de la calle por mi hermana, me puso togo en honor a la
+                                    pelicula de disney, soy muy revoltoso pero muy humilde y valiente. </p>
+                            </div>
+                        </div>
+
+                   
+
                 </div>
             </div>
-          
+
         </div>
 
     </div>
@@ -103,6 +177,9 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-   </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
